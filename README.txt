@@ -1,19 +1,20 @@
-本数据集源图像来自上交、川大在rmcv上传的相机内录、比赛视频以及RM在B站上传的比赛视频
+## Latest
+The coco2face.py script can be used to convert the label of the dataset into the yolov5-face-based format. Compared with the two-point model, this method can help to calculate the position of the light bar.
 
-感谢以上队伍
+Haoqin Hong, GKD Team Vision Group, Southwest University
 
-本数据集标注工具采用上海交大开源的labelrm工具，感谢上交云汉交龙战队
+## Previous
 
-数据集包含5497+607张图片，image文件与label文件已分开
+The source images of this dataset are from the camera recording uploaded by Sichuan University on rmcv and the competition video uploaded by RM Bilibili
 
-由于我队梯队队员操作失误，数据集中包含少量脏数据
+Thanks to the above teams
 
-根据labelrm的编号与命名规则，建议各位将17号以后的数据筛掉
+The labelrm tool open source by Shanghai Jiaotong University is used as the annotation tool for this dataset, thanks to the handover Yunhan Jiaotong Team
 
-对于数据标注存在瑕疵我对此非常抱歉
+The dataset contains 5497+607 images and the image file has been separated from the label file
 
-exp文件夹中包含了yolov5的训练结果以及label统计，可供参考
+The exp folder contains the yolov5 training results and label statistics for reference
 
-希望可以为各队视觉提升有所帮助
+Hope it can help each team to improve their vision
 
-西南大学GKD战队视觉组 王瑞基
+Wang Ruiji, GKD Team Vision Group, Southwest University
